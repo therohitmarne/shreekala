@@ -5416,7 +5416,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
 .single-footer-widget .our-info-box .footer-logo{
     position: relative;
     display: block;
-    padding-bottom: 34px;
+    padding-bottom: 0px;
 }
 .single-footer-widget .our-info-box .footer-logo a{
     display: inline-block;
