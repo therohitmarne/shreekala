@@ -7217,7 +7217,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
     left: 0;
     width: 70px;
     height: 70px;
-    background: #ffffff;
+/*    background: #ffffff;*/
     content: "";
     z-index: -1;
 }
