@@ -2950,7 +2950,7 @@ li .single-footer-contact-info .inner {
 .main-menu .navbar-collapse > .navigation > li > ul > li > ul > li:hover > a,
 .main-menu .navbar-collapse > .navigation > li.current > a{
     color: #ffffff !important;
-    background: #e9212e;
+    background: #c59e4b;
 }        
 .main-menu .navbar-collapse > .navigation li.dropdown .dropdown-btn{
     display:block;
@@ -3276,15 +3276,17 @@ li .single-footer-contact-info .inner {
 	font-size: 14px;
 	line-height: 1.6em;
 }       
-    
-    
-
-    
+     
+}
+@media only screen and (max-width: 369px) {
+    .logo-box-style2 a img {
+        width: 31% !important;
+    }
 }
 
-@media only screen and (max-width: 436px) {
+@media only screen and (min-width: 369px) and (max-width: 510px) {
     .logo-box-style2 a img {
-        width: 27% !important;
+        width: 24% !important;
     }
 }
 
@@ -3326,11 +3328,7 @@ li .single-footer-contact-info .inner {
         width: 10% !important;
     }
 }
-@media only screen and (max-width: 510px) {
-    .logo-box-style2 a img {
-        width: 23% !important;
-    }
-}
+
 
 
 @media only screen and (max-width: 400px) {   

@@ -3657,9 +3657,9 @@ select:focus {
     margin: 5px 0;
     transition: all 500ms ease 100ms;
 }
-.logo-box-style2 a {
+/*.logo-box-style2 a {
     display: inline-block;
-}
+}*/
 
 .main-menu.style2 .navigation > li {
     margin-right: 52px;
