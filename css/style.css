@@ -1015,7 +1015,7 @@ select:focus {
     position: relative;
     display: block;
     color: #27282c;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 14px;
     font-weight: 500;
     text-transform: uppercase;
@@ -1023,6 +1023,9 @@ select:focus {
     padding: 39px 0px 37px;
     transition: all 300ms ease;
     font-family: 'Rubik', sans-serif;
+}
+.main-menu .navigation > li > a:active{
+    color: #c59e4b;
 }
 .main-menu .navigation > li:hover > a, 
 .main-menu .navigation > li.current > a {
@@ -1082,6 +1085,9 @@ select:focus {
     padding-right: 0;
     font-family: 'Rubik', sans-serif;
 }
+.main-menu .navigation > li > ul > li > a.active{
+    color: #c59e4b;
+}
 .main-menu .navigation > li > ul > li:last-child a{
     border-bottom: none;
 }
@@ -1090,8 +1096,8 @@ select:focus {
     top: 0;
     left: 30px;
     bottom: 0;
-    content: "";
-    background: url(../images/icon/dropdown-menu-arrow.png);
+/*    content: "";*/
+/*    background: url(../images/icon/dropdown-menu-arrow.png);*/
     width: 26px;
     height: 11px;
     opacity: 0;
@@ -1105,7 +1111,6 @@ select:focus {
 }
 .main-menu .navigation > li > ul > li:hover > a {
     color: #c59e4b;
-    padding-left: 70px;
 }
 
 
@@ -3712,7 +3717,7 @@ select:focus {
 .about-style2-area{
     position: relative;
     display: block;
-    padding: 110px 0 110px;
+    padding: 80px 0 80px;
 }
 .about-style2-text{
     position: relative;
@@ -3722,7 +3727,7 @@ select:focus {
     padding-bottom: 30px;
 }
 .about-style2-text .sec-title p{
-    margin: 0 0 27px;
+    margin: 0 0 10px;
 }
 .about-style2-text .text {
     position: relative;
@@ -7587,7 +7592,7 @@ li .single-footer-contact-info .text p span{
 .single-service-area{
     position: relative;
     display: block;
-    padding: 110px 0 110px;
+    padding: 80px 0 80px;
 }
 .single-service-top {
     position: relative;

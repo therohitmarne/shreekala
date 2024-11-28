@@ -2850,8 +2850,8 @@ li .single-footer-contact-info .inner {
     float: none;
     margin: 0;
     z-index: 7;
-    width: 50px;
-    height: 47px;
+    width: 47px;
+    height: 35px;
     cursor: pointer;
     padding: 0 9px;
     position: absolute;
@@ -3337,10 +3337,26 @@ li .single-footer-contact-info .inner {
 	font-size: 20px;
 	line-height: 1.3em;
     font-weight: 500;
-} 
+}   
     
-    
-    
-    
+}
+@media only screen and (max-width: 768px) {
+    .mb-logo{
+        width: 100px !important;
+    }
+    .about-style2-area{
+        padding: 60px 0 60px !important;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .mb-none{
+        display: none !important;
+    }
+    .top-bar-style2 {
+        padding: 3px 20px !important;
+    }
+    .main-menu .navbar-header {
+        padding: 50px 0 0; 
+    }
 }
 
