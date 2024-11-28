@@ -13038,6 +13038,13 @@ li .single-footer-contact-info .text p span{
 .usefull-links a{
     color: #fff !important;
 }
+.nav-link {
+    color: #27282c;
+}
+.nav-link.active {
+    color: #c59e4b !important;
+    font-weight: bold;
+}
 
 @media only screen and (max-width: 1290px){
 
