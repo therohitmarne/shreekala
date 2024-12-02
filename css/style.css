@@ -13044,6 +13044,14 @@ li .single-footer-contact-info .text p span{
 .usefull-links a{
     color: #fff !important;
 }
+
+.wa {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+}
+
 .nav-link {
     color: #27282c;
 }
@@ -13057,6 +13065,12 @@ li .single-footer-contact-info .text p span{
 
 .dis-none{
     display: none;
+    }
+}
+@media only screen and (max-width: 768px){
+
+.whatsapp{
+    width: 80px;
     }
 }
 
