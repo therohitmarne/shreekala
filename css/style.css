@@ -3970,7 +3970,7 @@ select:focus {
     top: 0;
     left: 0;
     right: 0;
-    color: #2d2e32;
+    color: #ffffff42;
     font-size: 100px;
     line-height: 70px;
     font-weight: 500;
@@ -4015,7 +4015,7 @@ select:focus {
     margin-top: 34px;
 }
 .single-working-box-style2 .text-holder .text p{
-    color: #7c7e84;
+    color: #ffffff;
     margin: 0;
 }
 .single-working-box-style2 .read-more a span:before {
