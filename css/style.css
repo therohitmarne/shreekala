@@ -3875,7 +3875,7 @@ select:focus {
     z-index: 1;
 }
 .working-style2-area::before {
-    background: rgba(0, 0, 0, 0.80) none repeat scroll 0 0;
+    background: rgb(0 0 0 / 48%) none repeat scroll 0 0;
     position: absolute;
     top: 0;
     left: 0;
