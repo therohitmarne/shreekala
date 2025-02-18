@@ -2219,7 +2219,7 @@ li .single-footer-contact-info .inner {
 =============================================
 ***/ 
 .footer-area.style4 {
-    padding: 80px 0 80px;
+    padding: 80px 0 60px;
 } 
 .single-footer-widget.marbtm50-s4 {
     margin-bottom: 50px;
@@ -3285,6 +3285,12 @@ li .single-footer-contact-info .inner {
     }
     .additional-info-content-box .accordion-box .accordion .accord-btn h4{
         font-size: 12px !important;
+    }
+    .single-footer-widget .title-style2{
+        padding-bottom: 0px !important;
+    }
+    .single-footer-widget.marbtm50-s4{
+        margin-bottom: 25px !important;
     }
 }
 
