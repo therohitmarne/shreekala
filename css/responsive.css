@@ -1802,7 +1802,7 @@ li .single-footer-contact-info .inner {
 =============================================
 ***/     
 .about-style2-image-box {
-    margin-top: 170px;
+    margin-top: 0px;
 }    
 .about-style2-image-box .pattern {
     top: -110px;
@@ -2219,7 +2219,7 @@ li .single-footer-contact-info .inner {
 =============================================
 ***/ 
 .footer-area.style4 {
-    padding: 110px 0 100px;
+    padding: 80px 0 80px;
 } 
 .single-footer-widget.marbtm50-s4 {
     margin-bottom: 50px;
@@ -2372,7 +2372,7 @@ li .single-footer-contact-info .inner {
     display: none;
 }    
 .single-service-top {
-    margin-top: 50px;
+    margin-top: 0px;
 }    
 .single-advantages-box {
     margin-bottom: 30px;
@@ -2725,7 +2725,7 @@ li .single-footer-contact-info .inner {
 .contact-form-image-box {
     position: relative;
     z-index: 1;
-    top: -110px;
+    top: 0;
     right: 0;
 }    
     
@@ -2735,7 +2735,7 @@ li .single-footer-contact-info .inner {
 =============================================
 ***/    
 .contact-info-area {
-    padding: 110px 0 0px;
+    padding: 80px 0 0px;
 }       
 
 /*** 
@@ -2843,8 +2843,8 @@ li .single-footer-contact-info .inner {
     z-index: 12;
 }    
 .main-menu .navbar-header .navbar-toggle {
-    background: #000100;
-    border: 1px dashed #000100;
+    background: #c59e4b;
+    border: 1px dashed #c59e4b;
     display: inline-block;
     border-radius: 3px;
     float: none;
@@ -3278,6 +3278,13 @@ li .single-footer-contact-info .inner {
     }
     .mb-logo{
         width: 100px !important; 
+    }
+    .sec-title .title{
+        font-size: 22px !important;
+        line-height: 28px !important; 
+    }
+    .additional-info-content-box .accordion-box .accordion .accord-btn h4{
+        font-size: 12px !important;
     }
 }
 
