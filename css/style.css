@@ -2710,7 +2710,8 @@ select:focus {
     display: block;
 }
 .appointment-form input[type="text"], 
-.appointment-form input[type="email"], 
+.appointment-form input[type="email"],
+.appointment-form input[type="phone"],  
 .appointment-form textarea {
     position: relative;
     display: block;
@@ -2730,6 +2731,9 @@ select:focus {
     border-color: #c59e4b;    
 }
 .appointment-form input[type="email"]:focus{
+    border-color: #c59e4b;     
+}
+.appointment-form input[type="phone"]:focus{
     border-color: #c59e4b;     
 }
 .appointment-form .single-box button{
