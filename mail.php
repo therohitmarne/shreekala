@@ -28,7 +28,7 @@ if(isset($_POST['submit']))
 {
 $name  = $_POST["name"];
 $email  = $_POST["email"];
-// $no  = $_POST["phone"];
+$no  = $_POST["phone"];
 $select   = $_POST["select"];
 // $msg  = $_POST["msg"];
 
@@ -49,6 +49,10 @@ $message = "<html><body><br>
     <td>Email Id</td>
     <td> ".$email." </td>
   </tr> 
+  <tr>
+    <td>Phone</td>
+    <td> ".$no." </td>
+  </tr>
    <tr>
     <td>Select</td>
     <td> ".$select." </td>
